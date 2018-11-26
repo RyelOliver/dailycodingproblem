@@ -8,9 +8,8 @@ const sumOfTwo = (args) => {
   
     if(remainderList.includes(remainder)) {
       return true
-    } else {
-      remainderList.push(numberList[index])
     }
+    remainderList.push(numberList[index])
   }
   
   return false

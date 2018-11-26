@@ -7,7 +7,7 @@ it('Example is true', () => {
   expect(sumOfTwo({
     numberList: numbers,
     number: k
-  })).toBe(true)
+  })).toBeTruthy()
 })
 
 it('Example is false', () => {
@@ -17,5 +17,5 @@ it('Example is false', () => {
   expect(sumOfTwo({
     numberList: numbers,
     number: k
-  })).toBe(false)
+  })).toBeFalsy()
 })
