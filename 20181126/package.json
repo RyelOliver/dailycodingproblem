@@ -1,7 +1,7 @@
 {
   "name": "20181126",
   "version": "1.0.0",
-  "description": "",
+  "description": "Given a list of numbers and a number k, return whether any two numbers from the list add up to k.",
   "main": "app.js",
   "scripts": {
     "test": "jest"
