@@ -1,7 +1,7 @@
 const sumOfTwo = (args) => {
   const { numberList, number } = args
 
-  let remainderList = []
+  const remainderList = []
 
   for(let index = 0; index < numberList.length; index++) {
     const remainder = number - numberList[index]
