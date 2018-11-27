@@ -1,13 +1,16 @@
 const productExceptIndex = (args) => {
   const { integerList } = args
 
-  let productList = []
-  const totalProduct = integerList.reduce((integer, product) => {
-    return product * integer
-  }, 1)
+  const productList = []
 
   for(let index = 0; index < integerList.length; index++) {
-    productList.push(totalProduct / integerList[index])
+    const filteredList = integerList.slice()
+    filteredList.splice(index, 1)
+
+    const product = filteredList.reduce((integer, product) => {
+      return product * integer
+    }, 1)
+    productList.push(product)
   }
 
   return productList
