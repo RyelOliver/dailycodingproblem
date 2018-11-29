@@ -5,7 +5,11 @@
 		}
 	],
 	"settings": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2
-    }
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabCompletion": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  }
 }
